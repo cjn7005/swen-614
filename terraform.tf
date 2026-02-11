@@ -4,6 +4,5 @@ terraform {
         key = "prod/terraform.tfstate"          # State file path in the bucket
         region = var.provider_region            # AWS region
         encrypt = true
-        use_lockfile = false
     }
 }
