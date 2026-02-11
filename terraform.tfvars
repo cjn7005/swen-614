@@ -1,3 +1,3 @@
-aws_security_key="SWEN 614"
+aws_security_key="SWEN_614"
 db_username="root"
 db_password="password"
