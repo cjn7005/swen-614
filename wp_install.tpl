@@ -35,8 +35,8 @@ mysql_secure_installation <<EOF
 
 
       y
-      "${password}"
-      "${password}"
+      "${db_password}"
+      "${db_password}"
       y
       y
       y

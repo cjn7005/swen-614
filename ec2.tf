@@ -8,7 +8,7 @@ resource "aws_instance" "my_server" {
    {
     "db_name" : var.db_name,
     "db_username" : var.db_username,
-    "db_password" = var.db_password
+    "db_password" : var.db_password
    })
   
    # Add tags to the EC2 instance for identification
