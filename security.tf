@@ -2,7 +2,7 @@
 resource "aws_security_group" "allow_http_shh" {
   name        = "web-sg"
   description = "Allow HTTP and SSH access"
-  vpc_id      = "vpc-0cae8c414a5458df7"
+  vpc_id      = var.vpc_id
 
   ingress {
     description = "HTTP"

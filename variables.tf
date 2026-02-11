@@ -15,11 +15,6 @@ variable "db_name" {
     default = "blog"
 }
 
-variable "aws_security_key" {
-    type = string
-    sensitive = true
-}
-
 variable "db_username" {
     type = string
     sensitive = true
@@ -28,4 +23,14 @@ variable "db_username" {
 variable "db_password" {
     type = string
     sensitive = true
+}
+
+variable "aws_security_key" {
+    type = string
+    sensitive = true
+}
+
+variable "vpc_id" {
+    type = string
+    default = "vpc-045ea0b66c37bcc9a"
 }
