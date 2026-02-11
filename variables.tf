@@ -15,6 +15,11 @@ variable "db_name" {
     default = "blog"
 }
 
+variable "vpc_id" {
+    type = string
+    default = "vpc-045ea0b66c37bcc9a"
+}
+
 variable "db_username" {
     type = string
     sensitive = true
@@ -30,7 +35,11 @@ variable "aws_security_key" {
     sensitive = true
 }
 
-variable "vpc_id" {
+variable "state_bucket_name" {
     type = string
-    default = "vpc-045ea0b66c37bcc9a"
+    default = "swen614-cjn7005-mybucket"
+}
+
+variable "state_key_name" {
+    type = string
 }
